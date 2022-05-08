@@ -3,7 +3,7 @@ import random
 a = 0
 b = 100
 
-r = random.randint(a, b)
+r = random.randint(a,b)
 print(f'random num = {r}')
 
 for x in range(10):
@@ -22,12 +22,12 @@ for x in range(10):
         p = 'more'
         print('r is more')
         a = c
-
+        
     elif r < c:
         p = 'less'
         print('r is less')
         b = c
-
+            
     else:
         print('else')
 
