@@ -13,22 +13,19 @@ for x in range(10):
             c = c - 1
         elif p == 'less':
             c = c + 1
-    print(f'c is {c}')
+    if b - a == 2:
+        print(f'won --- {a+1} --- chance -- {x}')
+        break
     if r == c:
-        print('win')
+        print(f'won --- {c} --- chance -- {x}')
         break
 
     elif r > c:
         p = 'more'
-        print('r is more')
         a = c
 
     elif r < c:
         p = 'less'
-        print('r is less')
         b = c
-
-    else:
-        print('else')
 
 print(r)
