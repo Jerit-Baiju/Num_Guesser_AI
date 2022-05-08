@@ -4,7 +4,7 @@ a = 0
 b = 100
 
 r = random.randint(a,b)
-print(r)
+print(f'random num = {r}')
 
 for x in range(10):
     if r == (a+b)/2:
